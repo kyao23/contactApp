@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+.addcontact {
+  margin: 50px;
+  width: 300px;
+  height: 50px;
+  border-width: 0;
+  background: #CEF3BD;
+  border-radius: 50px;
+}
+.addcontact:hover {
+  background: #B9D8AA;
+  transition: 0.2s;
+}
+.removecontact {
+  margin: 50px;
+  width: 300px;
+  height: 50px;
+  border-width: 0;
+  background: #F3BDBD;
+  border-radius: 50px;
+}
+.removecontact:hover{
+  background:#DFB3B3;
+  transition: 0.2s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.homepage{
   display: flex;
+  justify-content: center;
   flex-direction: column;
+}
+
+
+.namelist{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.contactpage{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contactphoto{
+  margin: 10px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  width: 240px;
+  height: 240px;
+  background-color: #D9D9D9;
+  border-radius: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.format {
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
+
+.enterValue{
+  margin: 10px;
+  width: 250px;
+  height: 50px;
+  padding-left: 20px;
+  border-width: 0;
+  background: #D9D9D9;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.initial{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 3px solid red;
+}
+
+.initialtext{
+  font-size: 100px;
+}
+
+.confirmContact{
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  border-width: 0;
+  background: #CEF3BD;
+  border-radius: 50px;
+}
+
